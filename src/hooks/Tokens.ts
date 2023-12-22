@@ -103,7 +103,7 @@ export function useToken(tokenAddress?: string): Token | undefined | null {
 }
 
 export function useCurrency(currencyId: string | undefined): Currency | null | undefined {
-  const isPLS = currencyId?.toUpperCase() === 'PLS'
+  const isPLS = currencyId?.toUpperCase() === 'CELO'
   const token = useToken(isPLS ? undefined : currencyId)
   return isPLS ? ETHER : token
 }

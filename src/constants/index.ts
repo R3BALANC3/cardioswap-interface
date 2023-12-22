@@ -8,7 +8,7 @@ type ChainTokenList = {
   readonly [chainId in ChainId]: Token[]
 }
 
-export const WPLS = new Token(ChainId.MAINNET, '0xA1077a294dDE1B09bB078844df40758a5D0f9a27', 18, 'WPLS', 'Wrapped Pulse')
+export const C33LO = new Token(ChainId.MAINNET, '0xbf902662952C1ab045023B73ed2400db0048A811', 18, 'C33LO', 'Wrapped CELO R33')
 export const CARDIO = new Token(ChainId.MAINNET, '0xbf902662952C1ab045023B73ed2400db0048A811', 18, 'CARDIO', 'CardioSwap')
 export const ETH = new Token(ChainId.MAINNET, '0x02DcdD04e3F455D838cd1249292C58f3B79e3C3C', 18, 'WETH', 'Wrapped Ether from Ethereum')
 export const USDT = new Token(ChainId.MAINNET, '0x0Cb6F5a34ad42ec934882A05265A7d5F59b51A2f', 18, 'USDT', 'Tether USD from Ethereum')
@@ -49,8 +49,8 @@ export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
 
 export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } = {
   [ChainId.MAINNET]: [
-    [WPLS, CARDIO],
-    [WPLS, USDT],
+    [C33LO, CARDIO],
+    [C33LO, USDT],
     [USDT, USDC],
   ],
 }

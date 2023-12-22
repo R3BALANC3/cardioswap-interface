@@ -7,16 +7,16 @@
     "patch": 0
   },
   "tags": {},
-  "logoURI": "https://cardioswap.io/images/coins/pls.png",
+  "logoURI": "https://cardioswap.io/images/coins/0xbf902662952C1ab045023B73ed2400db0048A811.png",
   "keywords": ["pancake", "default"],
   "tokens": [
     {
-      "name": "Wrapped Pulse",
-      "symbol": "WPLS",
-      "address": "0xA1077a294dDE1B09bB078844df40758a5D0f9a27",
-      "chainId": 369,
+      "name": "Wrapped CELO R33",
+      "symbol": "C33LO",
+      "address": "0xbf902662952C1ab045023B73ed2400db0048A811",
+      "chainId": 42220,
       "decimals": 18,
-      "logoURI": "https://cardioswap.io/images/coins/pls.png"
+      "logoURI": "https://cardioswap.io/images/coins/0xbf902662952C1ab045023B73ed2400db0048A811.png"
     },
     {
       "name": "CardioSwap",
@@ -51,10 +51,10 @@
       "logoURI": "https://cardioswap.io/images/coins/usdc.png"
     },
     {
-      "name": "Dai Stablecoin from Ethereum",
+      "name": "FLUSH",
       "symbol": "DAI",
-      "address": "0xefD766cCb38EaF1dfd701853BFCe31359239F305",
-      "chainId": 369,
+      "address": "0xB7B060E5494CC58EB630456AEBdE76CB429eF6b0",
+      "chainId": 42220,
       "decimals": 18,
       "logoURI": "https://cardioswap.io/images/coins/dai.png"
     }
