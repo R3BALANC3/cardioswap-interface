@@ -8,8 +8,11 @@ type ChainTokenList = {
   readonly [chainId in ChainId]: Token[]
 }
 
+
+
 export const C33LO = new Token(ChainId.MAINNET, '0xbf902662952C1ab045023B73ed2400db0048A811', 18, 'C33LO', 'Wrapped CELO R33')
-export const CARDIO = new Token(ChainId.MAINNET, '0xbf902662952C1ab045023B73ed2400db0048A811', 18, 'CARDIO', 'R3BALANC3')
+export const FLUSH = new Token(ChainId.MAINNET, '0xB7B060E5494CC58EB630456AEBdE76CB429eF6b0', 18, 'FLUSH', 'Straight Flush')
+export const R33 = new Token(ChainId.MAINNET, '0xB7B060E5494CC58EB630456AEBdE76CB429eF6b0', 18, 'R33', 'R3BALANC3')
 export const ETH = new Token(ChainId.MAINNET, '0x02DcdD04e3F455D838cd1249292C58f3B79e3C3C', 18, 'WETH', 'Wrapped Ether from Ethereum')
 export const USDT = new Token(ChainId.MAINNET, '0x0Cb6F5a34ad42ec934882A05265A7d5F59b51A2f', 18, 'USDT', 'Tether USD from Ethereum')
 export const USDC = new Token(ChainId.MAINNET, '0x15D38573d2feeb82e7ad5187aB8c1D52810B1f07', 18, 'USDC', 'USD Coin from Ethereum')
@@ -24,7 +27,7 @@ const WETH_ONLY: ChainTokenList = {
 // used to construct intermediary pairs for trading
 export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
   ...WETH_ONLY,
-  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], CARDIO, ETH, USDT, USDC],
+  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], R33, ETH, USDT, USDC],
 }
 
 /**
@@ -38,18 +41,18 @@ export const CUSTOM_BASES: { [chainId in ChainId]?: { [tokenAddress: string]: To
 // used for display in the default list when adding liquidity
 export const SUGGESTED_BASES: ChainTokenList = {
   ...WETH_ONLY,
-  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], CARDIO, ETH, USDT, USDC],
+  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], R33, ETH, USDT, USDC],
 }
 
 // used to construct the list of all pairs we consider by default in the frontend
 export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
   ...WETH_ONLY,
-  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], CARDIO, ETH, USDT, USDC],
+  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], R33, ETH, USDT, USDC],
 }
 
 export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } = {
   [ChainId.MAINNET]: [
-    [C33LO, CARDIO],
+    [C33LO, R33],
     [C33LO, USDT],
     [USDT, USDC],
   ],
