@@ -3,7 +3,7 @@ const params = {
     name: "Celo Mainnet",
     label: "Celo Mainnet",
     image: "PulseChain.png",
-    wrappedNativeToken: "0xA1077a294dDE1B09bB078844df40758a5D0f9a27",
+    wrappedNativeToken: "0xbf902662952C1ab045023B73ed2400db0048A811",
     params: {
         chainId: "0xa4ec",
         chainName: "Celo Mainnet",
