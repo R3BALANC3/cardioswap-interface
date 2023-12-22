@@ -1,6 +1,6 @@
-# CardioSwap DEX
+# R3BALANC3 DEX
 
-[CardioSwap](https://r3balanc3.com/) is an automated market maker (“**AMM**”) that allows two tokens to be exchanged on PulseChain. It is fast, cheap, and allows anyone to participate.
+[R3BALANC3](https://r3balanc3.com/) is an automated market maker (“**AMM**”) that allows two tokens to be exchanged on CELO. It is fast and allows anyone to participate.
 
 This repo is responsible for the **exchange** interface of the AMM: [r3balanc3.com](https://r3balanc3.com/)
 
