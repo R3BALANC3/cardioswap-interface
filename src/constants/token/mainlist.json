@@ -1,5 +1,5 @@
 {
-  "name": "CardioSwap Default List",
+  "name": "R3BALANC3 Default List",
   "timestamp": "2023-07-18T00:00:00Z",
   "version": {
     "major": 2,
@@ -19,10 +19,10 @@
       "logoURI": "https://cardioswap.io/images/coins/0xbf902662952C1ab045023B73ed2400db0048A811.png"
     },
     {
-      "name": "CardioSwap",
-      "symbol": "CARDIO",
-      "address": "0xE08DD1a6162A4096B4B4D3Fd3B60AE4aDe56a22f",
-      "chainId": 369,
+      "name": "R3BALANC3",
+      "symbol": "R33",
+      "address": "0xB7B060E5494CC58EB630456AEBdE76CB429eF6b0",
+      "chainId": 42220,
       "decimals": 18,
       "logoURI": "https://cardioswap.io/images/coins/cardio.png"
     },

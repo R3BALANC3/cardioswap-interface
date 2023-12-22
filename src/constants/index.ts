@@ -9,7 +9,7 @@ type ChainTokenList = {
 }
 
 export const C33LO = new Token(ChainId.MAINNET, '0xbf902662952C1ab045023B73ed2400db0048A811', 18, 'C33LO', 'Wrapped CELO R33')
-export const CARDIO = new Token(ChainId.MAINNET, '0xbf902662952C1ab045023B73ed2400db0048A811', 18, 'CARDIO', 'CardioSwap')
+export const CARDIO = new Token(ChainId.MAINNET, '0xbf902662952C1ab045023B73ed2400db0048A811', 18, 'CARDIO', 'R3BALANC3')
 export const ETH = new Token(ChainId.MAINNET, '0x02DcdD04e3F455D838cd1249292C58f3B79e3C3C', 18, 'WETH', 'Wrapped Ether from Ethereum')
 export const USDT = new Token(ChainId.MAINNET, '0x0Cb6F5a34ad42ec934882A05265A7d5F59b51A2f', 18, 'USDT', 'Tether USD from Ethereum')
 export const USDC = new Token(ChainId.MAINNET, '0x15D38573d2feeb82e7ad5187aB8c1D52810B1f07', 18, 'USDC', 'USD Coin from Ethereum')

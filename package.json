@@ -1,6 +1,6 @@
 {
   "name": "@cardioswap/interface",
-  "description": "CardioSwap Interface",
+  "description": "R3BALANC3 Interface",
   "homepage": "https://cardioswap.io/",
   "private": true,
   "dependencies": {

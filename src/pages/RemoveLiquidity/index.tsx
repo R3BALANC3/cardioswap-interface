@@ -124,7 +124,7 @@ export default function RemoveLiquidity({
       { name: 'verifyingContract', type: 'address' },
     ]
     const domain = {
-      name: 'CardioSwap LP',
+      name: 'R3BALANC3 LP',
       version: '1',
       chainId,
       verifyingContract: pair.liquidityToken.address,
