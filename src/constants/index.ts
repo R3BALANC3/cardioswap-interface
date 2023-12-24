@@ -1,7 +1,6 @@
 import { ChainId, JSBI, Percent, Token, WETH } from '@cardioswap/v2-sdk'
 
-export const ROUTER_ADDRESS = '0x59a17bf57e0008c501C6C868b0BEA126Dfde8488'
-export const SALE_ADDRESS = '0xEBaEfb9a13e87966ab5d0B887708ae90cc4D9e72'
+export const ROUTER_ADDRESS = '0x078A74FdB0B1d36Cd4c8b56baBe7A102947d2f3d'
 
 // a list of tokens by chain
 type ChainTokenList = {
@@ -10,7 +9,7 @@ type ChainTokenList = {
 
 
 
-export const C33LO = new Token(ChainId.MAINNET, '0xbf902662952C1ab045023B73ed2400db0048A811', 18, 'C33LO', 'Wrapped CELO R33')
+export const WCELO = new Token(ChainId.MAINNET, '0x7092D649371eE35d85978DE893A3B363E475c13A', 18, 'WCELO', 'Wrapped CELO')
 export const FLUSH = new Token(ChainId.MAINNET, '0xB7B060E5494CC58EB630456AEBdE76CB429eF6b0', 18, 'FLUSH', 'Straight Flush')
 export const R33 = new Token(ChainId.MAINNET, '0xB7B060E5494CC58EB630456AEBdE76CB429eF6b0', 18, 'R33', 'R3BALANC3')
 export const ETH = new Token(ChainId.MAINNET, '0x02DcdD04e3F455D838cd1249292C58f3B79e3C3C', 18, 'WETH', 'Wrapped Ether from Ethereum')
@@ -52,8 +51,8 @@ export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
 
 export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } = {
   [ChainId.MAINNET]: [
-    [C33LO, R33],
-    [C33LO, USDT],
+    [WCELO, R33],
+    [WCELO, USDT],
     [USDT, USDC],
   ],
 }
