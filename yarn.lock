@@ -1150,7 +1150,7 @@
 
 "@cardioswap/v2-sdk@https://github.com/r3balanc3/v2-sdk":
   version "1.0.0"
-  resolved "https://github.com/r3balanc3/v2-sdk#1511ce188fd141ffa6234393450a25a37a99ad60"
+  resolved "https://github.com/r3balanc3/v2-sdk#fd1e6291e7f76f550cd4b955eec554a7f323abe6"
   dependencies:
     "@cardioswap/v2-core" "https://github.com/cardioswap/v2-core.git"
     big.js "^5.2.2"
