@@ -11,9 +11,9 @@
   "keywords": ["pancake", "default"],
   "tokens": [
     {
-      "name": "Wrapped CELO R33",
-      "symbol": "C33LO",
-      "address": "0xbf902662952C1ab045023B73ed2400db0048A811",
+      "name": "Wrapped CELO",
+      "symbol": "WCELO",
+      "address": "0x7092D649371eE35d85978DE893A3B363E475c13A",
       "chainId": 42220,
       "decimals": 18,
       "logoURI": "https://cardioswap.io/images/coins/0xbf902662952C1ab045023B73ed2400db0048A811.png"
