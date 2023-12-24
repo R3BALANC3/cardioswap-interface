@@ -5,3 +5,5 @@
 This repo is responsible for the **exchange** interface of the AMM: [r3balanc3.com](https://r3balanc3.com/)
 
 If you want to contribute, please refer to the [contributing guidelines](./CONTRIBUTING.md) of this project.
+
+how-to-calculate-impermanent-loss: https://medium.com/auditless/how-to-calculate-impermanent-loss-full-derivation-803e8b2497b7

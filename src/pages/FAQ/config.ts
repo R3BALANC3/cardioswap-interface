@@ -7,7 +7,7 @@ const config = [
     description: [
       {
         id: 999,
-        fallback: 'R3BALANC3 DEX is a decentralized exchange (DEX) built on the PulseChain blockchain. It allows users to trade digital assets in a secure, transparent, and trustless manner.',
+        fallback: 'R3BALANC3 DEX is a decentralized exchange (DEX) built on the CELO blockchain. It allows users to trade digital assets in a secure, transparent, and trustless manner.',
       },
     ],
   },
@@ -19,7 +19,7 @@ const config = [
     description: [
       {
         id: 999,
-        fallback: 'To start using R3BALANC3 DEX, you need to have a wallet that supports PulseChain. Connect your wallet to the DEX and start trading by accessing the R3BALANC3 website or through compatible wallet applications.',
+        fallback: 'To start using R3BALANC3 DEX, you need to have a wallet that supports CELO. Connect your wallet to the DEX and start trading by accessing the R3BALANC3 website or through compatible wallet applications.',
       },
     ],
   },
@@ -28,7 +28,7 @@ const config = [
     description: [
       {
         id: 999,
-        fallback: 'R3BALANC3 DEX supports a variety of tokens, including PulseChain-compatible assets. The available tokens will depend on the liquidity provided by users and the listing decisions of the R3BALANC3 team.',
+        fallback: 'R3BALANC3 DEX supports a variety of tokens, including CELO-compatible assets. The available tokens will depend on the liquidity provided by users and the listing decisions of the R3BALANC3 team.',
       },
     ],
   },
@@ -37,7 +37,7 @@ const config = [
     description: [
       {
         id: 999,
-        fallback: 'R3BALANC3 DEX leverages the security and immutability of the PulseChain blockchain, providing a high level of security for your trades. However, it is important to exercise caution and follow best practices for securing your wallet and private keys.',
+        fallback: 'R3BALANC3 DEX leverages the security and immutability of the CELO blockchain, providing a high level of security for your trades. However, it is important to exercise caution and follow best practices for securing your wallet and private keys.',
       },
     ],
   },

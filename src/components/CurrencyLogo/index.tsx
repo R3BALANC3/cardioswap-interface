@@ -7,7 +7,7 @@ import Logo from '../Logo'
 import CoinLogo from '../pancake/CoinLogo'
 
 const getTokenLogoURL = (address: string) =>
-  `https://cardioswap.io/images/coins/${address}.png`
+  `https://r3balanc3.io/images/coins/${address}.png`
 
 const StyledPLSLogo = styled.img<{ size: string }>`
   width: ${({ size }) => size};

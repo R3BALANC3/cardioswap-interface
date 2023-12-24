@@ -14,7 +14,7 @@ yarn start
 
 Don't forget to setup your IDE with `eslint` and `prettier`.
 
-## Change PulseChain network
+## Change CELO network
 
 To change the BSC network from test net, modify the `REACT_APP_CHAIN_ID` value in `.env`.
 
