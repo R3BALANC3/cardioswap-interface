@@ -44,7 +44,7 @@ export default function useWrapCallback(
             ? async () => {
                 try {
                   const txReceipt = await wethContract.deposit({ value: `0x${inputAmount.raw.toString(16)}` })
-                  addTransaction(txReceipt, { summary: `Wrap ${inputAmount.toSignificant(6)} CELO to C33LO` })
+                  addTransaction(txReceipt, { summary: `Wrap ${inputAmount.toSignificant(6)} CELO to WCELO` })
                 } catch (error) {
                   console.error('Could not deposit', error)
                 }
@@ -60,13 +60,13 @@ export default function useWrapCallback(
             ? async () => {
                 try {
                   const txReceipt = await wethContract.withdraw(`0x${inputAmount.raw.toString(16)}`)
-                  addTransaction(txReceipt, { summary: `Unwrap ${inputAmount.toSignificant(6)} C33LO to CELO` })
+                  addTransaction(txReceipt, { summary: `Unwrap ${inputAmount.toSignificant(6)} WCELO to CELO` })
                 } catch (error) {
                   console.error('Could not withdraw', error)
                 }
               }
             : undefined,
-        inputError: sufficientBalance ? undefined : 'Insufficient C33LO balance'
+        inputError: sufficientBalance ? undefined : 'Insufficient WCELO balance'
       }
     } 
       return NOT_APPLICABLE
